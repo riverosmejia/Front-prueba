@@ -1,0 +1,22 @@
+.center {
+
+    justify-content: center;
+    
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centra los elementos en el eje horizontal */
+    justify-content: center; /* Centra en el eje vertical si hay espacio */
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.bodyBackground {
+    
+    background-color: #242424;
+    display: flex
+
+}

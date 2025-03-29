@@ -1,0 +1,52 @@
+.cardContainer {
+    flex: 1 1 calc(33.33% - 40px);
+    max-width: 320px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cardContainer:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardContent h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .cardContent p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .cancelButton {
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cancelButton:hover {
+    background: #cc0000;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px) {
+    .cardContainer {
+      flex: 1 1 calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cardContainer {
+      flex: 1 1 100%;
+    }
+  }
+  
